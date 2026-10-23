@@ -1,0 +1,27 @@
+PERSONAL EXPENSE ANALYSIS — AUTOMATED SUMMARY
+================================================
+Transactions analyzed: 180
+Total spending: ₹112,636.44
+Average transaction: ₹625.76
+Median transaction: ₹483.54
+Standard deviation: ₹539.98
+Smallest transaction: ₹22.67
+Largest transaction: ₹2,359.85
+
+KEY FINDINGS
+- Highest-spending category: Bills (₹21,768.93).
+- Highest-spending month: 2025-11 (₹15,056.33).
+- Category spending share: see category_summary.csv.
+- Payment method comparison: see payment_method_summary.csv.
+
+DATA CLEANING LOG
+- Original rows: 181
+- Duplicate rows removed: 1
+- Missing amounts filled with median: 1
+- Invalid date rows removed: 0
+- Non positive amount rows removed: 0
+- Final rows: 180
+- Median used for missing amount: 483.54
+
+Note: This is a synthetic sample dataset created for an academic mini-project.
+Findings demonstrate the method and should not be treated as anyone's real finances.
